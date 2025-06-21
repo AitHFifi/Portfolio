@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AitHFifi Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Frederic ALLOGHO" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Frederic ALLOGHO">Frederic ALLOGHO</h1>
+
+          <p class="title">Software Engineer Student </p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:alloghofrederic9@gmail.com" class="contact-link">alloghofrederic9@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+250734485999" class="contact-link">+250 734 485 999</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-03-20">March 20, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Kigali, Rwanda</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/allogho/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/alloghofils" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a passionate Full Stack Developer with hands-on experience building modern websites, APIs, and digital tools. 
+            I love transforming complex problems into elegant, user-friendly solutions—with a focus on both function and form.
+          </p>
+
+          <p>
+            My mission is to create web experiences that are not only robust and scalable but also visually engaging and intuitive. 
+            Whether working on a sleek portfolio, a dynamic e-commerce API, or a productivity app, 
+            I always aim for a personal touch that makes each project unique. 
+            I'm always exploring new technologies and best practices to deliver the highest quality in every line of code.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web & Frontend Development:</h4>
+
+                <p class="service-item-text">
+                  Crafting modern, quality interfaces with attention to detail and usability.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="API & Backend icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">API & Backend</h4>
+
+                <p class="service-item-text">
+                  Creating robust RESTful APIs and backend systems for various platforms.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-productivity-64 (1).png" alt="Productivity Tools icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Productivity Tools</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="Learning & Community icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Learning & Community</h4>
+
+                <p class="service-item-text">
+                  Actively contributing to open-source projects and always eager to learn something new.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Rodelan OYONO" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rodelan OYONO</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    AitHFifi demonstrates a passion for both clean code and creative digital solutions. 
+                    Whether tackling web apps, APIs, or UI/UX challenges, their approach is thoughtful, 
+                    user-focused, and always up-to-date with best practices. 
+                    They’re always eager to learn, adapt, and deliver high-quality work that stands out.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Evelyne EDOU" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Evelyne EDOU</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with AitHFifi was a collaborative and efficient experience. Every request, 
+                    from portfolio customization to code and content generation, was met with clear communication 
+                    and an eagerness to iterate towards the best possible result. 
+                    Their ability to provide context and feedback helped the process move smoothly and successfully.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="RAUSSEMOND Francis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>RAUSSEMOND Francis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with AitHFifi was a collaborative and efficient experience. Every request, 
+                    from portfolio customization to code and content generation, 
+                    was met with clear communication and an eagerness to iterate towards the best possible result. 
+                    Their ability to provide context and feedback helped the process move smoothly and successfully.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University school of Central Africa (AUCA)</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                Core coursework: Software Engineering, Web Development, Database Systems, Data Structures & Algorithms.
+              </p>
+
+              <p class="timeline-text">
+              Engaged in hands-on projects focused on web app development, API design, and innovative digital solutions.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full Stack Developer, Collaboration on AitHStore</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Spearheaded the development of a modern e-commerce platform, 
+                designing and implementing key features using Java, TypeScript, and the Next.js framework.
+              </p>
+
+              <p class="timeline-text">
+                Collaborated with a cross-functional team to optimize user experience and ensure site scalability.
+              </p>
+
+              <p class="timeline-text">
+                Integrated RESTful APIs for product management, authentication, and order processing.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Freelance Web Developer, Trip Planner Project</h4>
+
+              <span>2023 </span>
+
+              <p class="timeline-text">
+                - Designed and built a Trip Planner web application to help users organize multi-destination itineraries with ease.
+              </p>
+
+              <p class="timeline-text">
+                - Developed features for adding, editing, and visualizing trips using Java, TypeScript, and modern web technologies.
+              </p>
+
+              <p class="timeline-text">
+                - Focused on user-friendly interfaces and responsive design for both desktop and mobile experiences
+              </p>
+
+              <p class="timeline-text">
+                - Implemented backend logic for trip suggestions, date management, and integration with mapping APIs.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+  <h3 class="h3 skills-title">My Skills</h3>
+
+  <ul class="skills-list content-card icon-skills-list">
+
+    <li class="skills-item">
+      <div class="icon-skill">
+        <img src="./assets/images/icons8-typescript.svg" alt="TypeScript" class="skill-icon" />
+        <span>TypeScript / JavaScript</span>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="icon-skill">
+        <img src="./assets/images/icons8-java.svg" alt="Java" class="skill-icon" />
+        <span>Java (Spring, Core)</span>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="icon-skill">
+        <img src="./assets/images/icons8-react.svg" alt="React / Next.js" class="skill-icon" />
+        <span>React / Next.js</span>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="icon-skill">
+        <img src="./assets/images/icons8-html5.svg" alt="HTML5 / CSS3" class="skill-icon" />
+        <span>HTML5 / CSS3</span>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="icon-skill">
+        <img src="./assets/images/icons8-api-50.png" alt="API Development" class="skill-icon" />
+        <span>API & Backend</span>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="icon-skill">
+        <img src="./assets/images/icons8-github.svg" alt="Git & GitHub" class="skill-icon" />
+        <span>Git & GitHub</span>
+      </div>
+    </li>
+
+  </ul>
+
+  </section>
+
+    </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+      <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+    </ul>
+
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select category</div>
+        <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+      </button>
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>All</button></li>
+      </ul>
+    </div>
+
+    <ul class="project-list" id="github-projects">
+      <!-- GitHub repos will be inserted here -->
+    </ul>
+
+  </section>
+
+</article>
+
+<script>
+  const GITHUB_USER = "AitHFifi"; // change if your username is different
+  const PROJECT_LIST = document.getElementById("github-projects");
+
+  // Optionally map repo topics/language to categories
+  function categoryFromRepo(repo) {
+    if (repo.topics && repo.topics.includes("web")) return "web development";
+    if (repo.topics && repo.topics.includes("design")) return "web design";
+    if (repo.topics && repo.topics.includes("app")) return "applications";
+    if (repo.language === "JavaScript" || repo.language === "TypeScript" || repo.language === "Java") return "web development";
+    return "applications";
+  }
+
+  function projectItemHTML(repo) {
+    return `
+    <li class="project-item active" data-filter-item data-category="${categoryFromRepo(repo)}">
+      <a href="${repo.html_url}" target="_blank">
+        <figure class="project-img">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+          <img src="https://opengraph.githubassets.com/1/${repo.full_name}" alt="${repo.name}" loading="lazy">
+        </figure>
+        <h3 class="project-title">${repo.name}</h3>
+        <p class="project-category">${categoryFromRepo(repo)}</p>
+        <p class="project-desc">${repo.description ? repo.description : ""}</p>
+      </a>
+    </li>
+    `;
+  }
+
+  async function renderGitHubProjects() {
+    PROJECT_LIST.innerHTML = "<li>Loading projects...</li>";
+    try {
+      const res = await fetch(`https://api.github.com/users/${GITHUB_USER}/repos?per_page=30&sort=updated`);
+      const repos = await res.json();
+      if (Array.isArray(repos)) {
+        PROJECT_LIST.innerHTML = repos
+          .filter(repo => !repo.fork)
+          .map(projectItemHTML)
+          .join('') || "<li>No projects found.</li>";
+      } else {
+        PROJECT_LIST.innerHTML = "<li>Unable to fetch projects.</li>";
+      }
+    } catch (e) {
+      PROJECT_LIST.innerHTML = "<li>Error loading projects.</li>";
+    }
+  }
+  document.addEventListener("DOMContentLoaded", renderGitHubProjects);
+</script>
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+<article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+
+  <!-- Map updated to Kigali, Rwanda -->
+  <section class="mapbox" data-mapbox>
+    <figure>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.20038825138!2d30.0587001563836!3d-1.9441069251549243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca4217b7a4d61%3A0x5a8b6dcf8b0b6d4a!2sKigali!5e0!3m2!1sen!2srw!4v1718999653388!5m2!1sen!2srw"
+        width="400" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </figure>
+  </section>
+
+  <section class="contact-form">
+
+    <h3 class="h3 form-title">Contact Form</h3>
+
+    <form id="contact-form" class="form" data-form>
+  <div class="input-wrapper">
+    <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+    <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+  </div>
+  <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+  <button class="form-btn" type="submit" data-form-btn id="send-btn">
+    <ion-icon name="paper-plane"></ion-icon>
+    <span>Send Message</span>
+  </button>
+</form>
+<p id="form-status" style="color: #ffc86b; margin-top: 1em;"></p>
+  </section>
+
+</article>
+
+    </div>
+
+  </main>
+
+
+
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("5HMIYfQ8ASGC6WNax"); // Your EmailJS public key
+  })();
+</script>
+
+<script>
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+  event.preventDefault();
+  const sendBtn = document.getElementById('send-btn');
+  const status = document.getElementById('form-status');
+  sendBtn.disabled = true;
+  status.textContent = "Sending...";
+
+  emailjs.sendForm('service_lnt9qbe', 'template_pvhx5sw', this)
+    .then(function() {
+      status.textContent = "Message sent successfully!";
+      sendBtn.disabled = false;
+      document.getElementById('contact-form').reset();
+    }, function(error) {
+      status.textContent = "Failed to send message. Please try again.";
+      sendBtn.disabled = false;
+      // Optionally log error for debugging:
+      console.error('EmailJS error:', error);
+    });
+});
+</script>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
